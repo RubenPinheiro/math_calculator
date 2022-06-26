@@ -40,6 +40,5 @@ def calculator():
         if input(f'Type "y" if you want to keep calculating with the number {answer} or "n" for a new calculation \n') == 'y':
             num1 = answer
         else:
-            should_continue = False
             calculator()
 calculator()
